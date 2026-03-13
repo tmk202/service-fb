@@ -1,0 +1,75 @@
+2026-03-12 16:51:33,871 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-12 16:51:33,871 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-12 16:51:33,872 - root - INFO - [DCOM] Đang ưu tiên card mạng: Ethernet 2 (Metric=1)...
+2026-03-12 16:51:35,390 - root - ERROR - [DCOM] ❌ Không thể set ưu tiên mạng (Cần quyền Admin): Command 'powershell -Command "Set-NetIPInterface -InterfaceAlias 'Ethernet 2' -InterfaceMetric 1"' returned non-zero exit status 1.
+2026-03-12 16:51:35,738 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.234.215
+2026-03-12 16:51:35,738 - root - INFO - [DCOM] IP cũ: 59.153.234.215 — Đang reset kết nối (huawei)...
+2026-03-12 16:51:35,760 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): 5o3Vn91ef3ckybE...
+2026-03-12 16:51:35,776 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:51:40,846 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:51:40,846 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 16:51:56,667 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.228.175
+2026-03-12 16:51:56,667 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.234.215 → 59.153.228.175
+2026-03-12 16:51:57,576 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.228.175
+2026-03-12 16:51:57,577 - root - INFO - 🚀 IP Hiện Tại: 59.153.228.175
+2026-03-12 16:51:57,577 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 16:52:07,578 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 16:52:08,811 - GuerrillaMail - INFO - Lấy email thành công: hjeibrlb@guerrillamailblock.com
+2026-03-12 16:52:09,113 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 16:52:14,540 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 16:52:14,540 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-12 16:52:14,544 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 16:52:21,772 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 16:52:21,773 - root - INFO - [FB_REG] Email mục tiêu: hjeibrlb@guerrillamailblock.com | Họ: Hoang | Tên: Vinh
+2026-03-12 16:52:21,773 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 16:52:25,884 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 16:52:29,144 - root - INFO - ✅ Đã điền Họ: Hoang
+2026-03-12 16:52:30,346 - root - INFO - ✅ Đã điền Tên: Vinh
+2026-03-12 16:52:30,346 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 16:52:30,875 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:52:31,402 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-12 16:52:31,403 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-12 16:52:31,926 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-12 16:52:31,927 - root - INFO - 🎯 Đang điền Ngày: 18
+2026-03-12 16:52:34,274 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-12 16:52:34,274 - root - INFO - 🎯 Đang điền Tháng: 11
+2026-03-12 16:52:38,266 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-12 16:52:38,266 - root - INFO - 🎯 Đang điền Năm: 2005
+2026-03-12 16:52:40,982 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-12 16:52:40,982 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-12 16:52:41,496 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-12 16:52:41,496 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-12 16:52:44,396 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:52:44,397 - root - INFO - 🎯 Đang điền Email: hjeibrlb@guerrillamailblock.com (Step 8)
+2026-03-12 16:52:48,432 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:52:48,976 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 16:52:48,976 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-12 16:52:49,508 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:52:49,508 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-12 16:52:52,319 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 16:52:52,847 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 16:52:52,848 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-12 16:52:53,372 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 16:52:53,373 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-12 16:52:53,899 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:52:53,900 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:52:54,429 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-12 16:52:54,429 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-12 16:52:54,959 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:52:54,959 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:52:55,486 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-12 16:52:55,486 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-12 16:52:55,486 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-12 16:52:57,521 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-12 16:53:00,559 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-12 16:53:10,577 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:53:10,578 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:53:10,578 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-12 16:53:10,579 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-12 16:53:15,578 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-12 16:53:15,578 - GuerrillaMail - INFO - Đang quét hộp thư cho hjeibrlb@guerrillamailblock.com...
+2026-03-12 16:54:34,931 - BROWSER - WARNING - [CAMOUFOX] Error on close: Browser.close: Connection closed while reading from the driver
+2026-03-12 16:54:34,931 - root - INFO - Browser closed.
+2026-03-12 16:54:34,931 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 16:55:22,063 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() done, defined at D:\tunn3\CODE\service-fb-2\facebook_registration.py:1357> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:228, <1 more>, gather.<locals>._done_callback() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>

@@ -1,0 +1,109 @@
+2026-03-12 16:29:32,400 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-12 16:29:32,400 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-12 16:29:33,689 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.254.136
+2026-03-12 16:29:33,689 - root - INFO - [DCOM] IP cũ: 59.153.254.136 — Đang reset kết nối (huawei)...
+2026-03-12 16:29:33,709 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): BbR3/ktTM+2dmK5...
+2026-03-12 16:29:33,731 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:29:38,812 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:29:38,812 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 16:29:54,669 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.240.248
+2026-03-12 16:29:54,669 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.254.136 → 59.153.240.248
+2026-03-12 16:29:55,509 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.240.248
+2026-03-12 16:29:55,510 - root - INFO - 🚀 IP Hiện Tại: 59.153.240.248
+2026-03-12 16:29:55,510 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 16:30:05,513 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 16:30:06,701 - GuerrillaMail - INFO - Lấy email thành công: qmhadizq@guerrillamailblock.com
+2026-03-12 16:30:07,020 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 16:30:12,445 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 16:30:12,445 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-12 16:30:12,463 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 16:30:19,490 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 16:30:19,490 - root - INFO - [FB_REG] Email mục tiêu: qmhadizq@guerrillamailblock.com | Họ: Vu | Tên: Vinh
+2026-03-12 16:30:19,490 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 16:30:23,783 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 16:30:26,155 - root - INFO - ✅ Đã điền Họ: Vu
+2026-03-12 16:30:27,304 - root - INFO - ✅ Đã điền Tên: Vinh
+2026-03-12 16:30:27,304 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 16:30:27,836 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:30:28,376 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-12 16:30:28,376 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-12 16:30:28,907 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-12 16:30:28,907 - root - INFO - 🎯 Đang điền Ngày: 27
+2026-03-12 16:30:31,264 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-12 16:30:31,264 - root - INFO - 🎯 Đang điền Tháng: 9
+2026-03-12 16:30:35,107 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-12 16:30:35,107 - root - INFO - 🎯 Đang điền Năm: 1998
+2026-03-12 16:30:37,821 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-12 16:30:37,821 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-12 16:30:38,351 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-12 16:30:38,351 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-12 16:30:41,264 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:30:41,264 - root - INFO - 🎯 Đang điền Email: qmhadizq@guerrillamailblock.com (Step 8)
+2026-03-12 16:30:45,343 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:30:45,895 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 16:30:45,896 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-12 16:30:46,439 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:30:46,439 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-12 16:30:49,159 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 16:30:49,698 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 16:30:49,698 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-12 16:30:50,223 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 16:30:50,223 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-12 16:30:50,753 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:30:50,753 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:30:51,280 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-12 16:30:51,281 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-12 16:30:51,808 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:30:51,809 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:30:52,321 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-12 16:30:52,322 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-12 16:30:52,322 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-12 16:30:54,367 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-12 16:30:56,432 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-12 16:31:06,422 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:31:06,423 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:31:06,423 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-12 16:31:06,423 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-12 16:31:11,438 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-12 16:31:11,438 - GuerrillaMail - INFO - Đang quét hộp thư cho qmhadizq@guerrillamailblock.com...
+2026-03-12 16:31:41,670 - asyncio - ERROR - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 637, in run_until_complete
+    self.run_forever()
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 604, in run_forever
+    self._run_once()
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1873, in _run_once
+    event_list = self._selector.select(timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 808, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\tunn3\CODE\service-fb-2\facebook_registration.py", line 365, in browser_heartbeat
+    await asyncio.sleep(3)
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 639, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+2026-03-12 16:31:41,674 - BROWSER - WARNING - [CAMOUFOX] Error on close: Browser.close: Connection closed while reading from the driver
+2026-03-12 16:31:41,674 - root - INFO - Browser closed.
+2026-03-12 16:31:41,675 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 16:33:16,430 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() running at D:\tunn3\CODE\service-fb-2\facebook_registration.py:1400> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:228, <1 more>, gather.<locals>._done_callback() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>

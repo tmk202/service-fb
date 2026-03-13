@@ -1,0 +1,11 @@
+{
+  "headless_mode": false,
+  "dcom_gateway": "192.168.16.1",
+  "dcom_type": "huawei",
+  "dcom_username": "admin",
+  "dcom_password": "admin",
+  "interface_name": "Ethernet 2",
+  "dcom_wait_seconds": 15,
+  "max_retries": 5,
+  "use_dcom": true
+}

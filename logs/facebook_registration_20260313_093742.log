@@ -1,0 +1,40 @@
+2026-03-13 09:37:42,552 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-13 09:37:42,552 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-13 09:37:42,936 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.254.176
+2026-03-13 09:37:42,937 - root - INFO - [DCOM] IP cũ: 59.153.254.176 — Đang reset kết nối (huawei)...
+2026-03-13 09:37:42,975 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): Iv/t5xW3NROvMh6...
+2026-03-13 09:37:42,994 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:37:48,063 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:37:48,063 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-13 09:38:03,379 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.225.163
+2026-03-13 09:38:03,379 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.254.176 → 59.153.225.163
+2026-03-13 09:38:03,723 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.225.163
+2026-03-13 09:38:03,723 - root - INFO - 🚀 IP Hiện Tại: 59.153.225.163
+2026-03-13 09:38:03,723 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-13 09:38:13,738 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-13 09:38:14,913 - GuerrillaMail - INFO - Lấy email thành công: scrjebbs@guerrillamail.com
+2026-03-13 09:38:14,914 - root - INFO - [DCOM_PROXY] Khởi động SOCKS5 proxy (Binding to Ethernet 2)...
+2026-03-13 09:38:14,940 - DCOMProxy - INFO - [DCOMProxy] ✅ SOCKS5 Proxy active at 127.0.0.1:53489
+2026-03-13 09:38:14,940 - DCOMProxy - INFO - [DCOMProxy] 🔗 Forcing traffic through Ethernet 2 (192.168.16.100)
+2026-03-13 09:38:14,940 - root - INFO - [DCOM_PROXY] ✅ Proxy sẵn sàng: socks5://127.0.0.1:53489
+2026-03-13 09:38:15,480 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=macos | locale=vi-VN
+2026-03-13 09:38:22,728 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:38:22,728 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.67.74.152:443 via 192.168.16.100
+2026-03-13 09:38:22,754 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.67.74.152:443
+2026-03-13 09:38:23,180 - root - ERROR - Lỗi hệ thống trong luồng chính: BrowserType.launch() got an unexpected keyword argument 'preferences'
+2026-03-13 09:38:23,191 - BROWSER - INFO - 🔒 [CAMOUFOX] Browser closed.
+2026-03-13 09:38:23,191 - root - INFO - Browser closed.
+2026-03-13 09:38:23,192 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-13 09:38:25,200 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#2) ---
+2026-03-13 09:38:25,200 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #2... ---
+2026-03-13 09:38:25,572 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.225.163
+2026-03-13 09:38:25,572 - root - INFO - [DCOM] IP cũ: 59.153.225.163 — Đang reset kết nối (huawei)...
+2026-03-13 09:38:25,610 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): xJwjtrgyss9fapl...
+2026-03-13 09:38:25,633 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:38:30,693 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:38:30,694 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-13 09:38:46,024 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.88
+2026-03-13 09:38:46,025 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.225.163 → 59.153.226.88
+2026-03-13 09:38:46,337 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.88
+2026-03-13 09:38:46,337 - root - INFO - 🚀 IP Hiện Tại: 59.153.226.88
+2026-03-13 09:38:46,338 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...

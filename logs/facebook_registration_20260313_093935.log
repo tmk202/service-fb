@@ -1,0 +1,521 @@
+2026-03-13 09:39:35,574 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-13 09:39:35,574 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-13 09:39:35,938 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.88
+2026-03-13 09:39:35,939 - root - INFO - [DCOM] IP cũ: 59.153.226.88 — Đang reset kết nối (huawei)...
+2026-03-13 09:39:35,978 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): bFr7vOJgvXIdI7B...
+2026-03-13 09:39:36,003 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:39:41,063 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:39:41,063 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-13 09:39:56,401 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.13
+2026-03-13 09:39:56,401 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.226.88 → 59.153.251.13
+2026-03-13 09:39:56,709 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.13
+2026-03-13 09:39:56,710 - root - INFO - 🚀 IP Hiện Tại: 59.153.251.13
+2026-03-13 09:39:56,710 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-13 09:40:06,711 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-13 09:40:08,144 - GuerrillaMail - INFO - Lấy email thành công: zqdocbse@guerrillamail.com
+2026-03-13 09:40:08,144 - root - INFO - [DCOM_PROXY] Khởi động SOCKS5 proxy (Binding to Ethernet 2)...
+2026-03-13 09:40:08,168 - DCOMProxy - INFO - [DCOMProxy] ✅ SOCKS5 Proxy active at 127.0.0.1:65481
+2026-03-13 09:40:08,168 - DCOMProxy - INFO - [DCOMProxy] 🔗 Forcing traffic through Ethernet 2 (192.168.16.100)
+2026-03-13 09:40:08,169 - root - INFO - [DCOM_PROXY] ✅ Proxy sẵn sàng: socks5://127.0.0.1:65481
+2026-03-13 09:40:08,493 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=macos | locale=vi-VN
+2026-03-13 09:40:08,988 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:09,012 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.67.74.152:443 via 192.168.16.100
+2026-03-13 09:40:09,040 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.67.74.152:443
+2026-03-13 09:40:18,622 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-13 09:40:18,622 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-13 09:40:18,656 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-13 09:40:18,781 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:18,845 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.159.35:443 via 192.168.16.100
+2026-03-13 09:40:18,896 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.159.35:443
+2026-03-13 09:40:19,004 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:19,075 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 23.50.21.119:80 via 192.168.16.100
+2026-03-13 09:40:19,139 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 23.50.21.119:80
+2026-03-13 09:40:19,673 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:19,768 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:40:19,867 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:40:20,289 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:20,335 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 185.199.110.133:443 via 192.168.16.100
+2026-03-13 09:40:20,428 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 185.199.110.133:443
+2026-03-13 09:40:20,722 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:20,767 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 34.160.122.198:443 via 192.168.16.100
+2026-03-13 09:40:20,810 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 34.160.122.198:443
+2026-03-13 09:40:21,899 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:21,998 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.174:443 via 192.168.16.100
+2026-03-13 09:40:22,058 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.174:443
+2026-03-13 09:40:24,559 - root - INFO - 📡 [FB_TRACKING] POST -> https://www.facebook.com/ajax/bz?__a=1&__ccg=GOOD&__comet_req=15&__hs=20525.HYP%3Acomet_loggedout_pk | Payload: ------geckoformboundaryffdde21bc67b7726787429bcaf86eb1f
+Content-Disposition: form-data; name="ts"
+
+1773369622340
+------geckoformboundaryffdde21bc6...
+2026-03-13 09:40:24,560 - root - INFO - 📡 [FB_TRACKING] POST -> https://www.facebook.com/ajax/bz?__a=1&__ccg=GOOD&__comet_req=15&__hs=20525.HYP%3Acomet_loggedout_pk
+2026-03-13 09:40:24,561 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:24,753 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.44.77:443 via 192.168.16.100
+2026-03-13 09:40:24,782 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.44.77:443
+2026-03-13 09:40:24,949 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:25,200 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:25,693 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 156.146.44.90:443 via 192.168.16.100
+2026-03-13 09:40:25,700 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 156.146.44.90:443 via 192.168.16.100
+2026-03-13 09:40:25,744 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 156.146.44.90:443
+2026-03-13 09:40:25,749 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 156.146.44.90:443
+2026-03-13 09:40:25,865 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-13 09:40:25,865 - root - INFO - [FB_REG] Email mục tiêu: zqdocbse@guerrillamail.com | Họ: Huynh | Tên: Vinh
+2026-03-13 09:40:25,865 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-13 09:40:28,379 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:28,469 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 82.165.93.184:443 via 192.168.16.100
+2026-03-13 09:40:28,638 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:28,702 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 82.165.93.184:443 via 192.168.16.100
+2026-03-13 09:40:28,747 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 82.165.93.184:443
+2026-03-13 09:40:28,952 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 82.165.93.184:443
+2026-03-13 09:40:30,973 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-13 09:40:33,644 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:33,702 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.20.35.99:443 via 192.168.16.100
+2026-03-13 09:40:33,732 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.20.35.99:443
+2026-03-13 09:40:33,872 - root - INFO - ✅ Đã điền Họ: Huynh
+2026-03-13 09:40:33,947 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:33,998 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.20.35.99:80 via 192.168.16.100
+2026-03-13 09:40:34,032 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.20.35.99:80
+2026-03-13 09:40:35,287 - root - INFO - ✅ Đã điền Tên: Vinh
+2026-03-13 09:40:35,287 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-13 09:40:35,824 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-13 09:40:36,360 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-13 09:40:36,360 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-13 09:40:36,874 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-13 09:40:36,874 - root - INFO - 🎯 Đang điền Ngày: 14
+2026-03-13 09:40:39,210 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-13 09:40:39,210 - root - INFO - 🎯 Đang điền Tháng: 9
+2026-03-13 09:40:43,019 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-13 09:40:43,020 - root - INFO - 🎯 Đang điền Năm: 1997
+2026-03-13 09:40:45,682 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-13 09:40:45,682 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-13 09:40:46,208 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-13 09:40:46,208 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-13 09:40:49,147 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-13 09:40:49,147 - root - INFO - 🎯 Đang điền Email: zqdocbse@guerrillamail.com (Step 8)
+2026-03-13 09:40:49,210 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:49,265 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.47.179:443 via 192.168.16.100
+2026-03-13 09:40:49,317 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.47.179:443
+2026-03-13 09:40:52,612 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:52,711 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 167.82.49.229:443 via 192.168.16.100
+2026-03-13 09:40:52,814 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 167.82.49.229:443
+2026-03-13 09:40:52,920 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-13 09:40:52,941 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:53,052 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.18.21.226:80 via 192.168.16.100
+2026-03-13 09:40:53,095 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.18.21.226:80
+2026-03-13 09:40:53,481 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-13 09:40:53,481 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-13 09:40:53,997 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-13 09:40:53,997 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-13 09:40:54,910 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:54,962 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 185.199.110.153:443 via 192.168.16.100
+2026-03-13 09:40:55,052 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 185.199.110.153:443
+2026-03-13 09:40:56,516 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-13 09:40:57,048 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-13 09:40:57,049 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-13 09:40:57,579 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-13 09:40:57,579 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-13 09:40:58,033 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:58,110 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-13 09:40:58,110 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-13 09:40:58,112 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.65.251.78:443 via 192.168.16.100
+2026-03-13 09:40:58,152 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.65.251.78:443
+2026-03-13 09:40:58,637 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-13 09:40:58,637 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-13 09:40:59,167 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-13 09:40:59,168 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-13 09:40:59,692 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-13 09:40:59,693 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-13 09:40:59,693 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-13 09:40:59,979 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:40:59,979 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:00,029 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.46.237:443 via 192.168.16.100
+2026-03-13 09:41:00,042 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.44.119:443 via 192.168.16.100
+2026-03-13 09:41:00,058 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.46.237:443
+2026-03-13 09:41:00,072 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.44.119:443
+2026-03-13 09:41:01,731 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-13 09:41:04,760 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-13 09:41:06,796 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:06,880 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:41:06,932 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:41:09,381 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:09,466 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:41:09,532 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:41:09,703 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:09,752 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:41:09,823 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:41:14,767 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-13 09:41:14,767 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-13 09:41:14,767 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-13 09:41:14,767 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-13 09:41:19,784 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-13 09:41:19,784 - GuerrillaMail - INFO - Đang quét hộp thư cho zqdocbse@guerrillamail.com...
+2026-03-13 09:41:20,664 - root - INFO - [FB_REG] 🎉 Đã lấy được mã: 77009
+2026-03-13 09:41:22,195 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_1 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-13 09:41:22,195 - root - INFO - 🎯 Xác định ô nhập mã OTP! Điền: 77009
+2026-03-13 09:41:23,591 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_2 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-13 09:41:23,919 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_3 | Tag: DIV | Aria:  | Text: Tiếp tục | Role: button
+2026-03-13 09:41:23,919 - root - INFO - 🎯 Đã thấy nút Submit chính (tiếp tục)! Nhấn Enter...
+2026-03-13 09:41:23,932 - root - INFO - ⏳ Đợi trang chuyển sau khi nhấn Submit...
+2026-03-13 09:41:33,025 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:33,096 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:41:33,160 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:41:33,299 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:33,346 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:41:33,396 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:41:33,554 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:33,604 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:41:33,661 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:41:34,491 - root - INFO - 🔄 [URL_CHANGED] Trang đã chuyển sau 10.5s: https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F%3Fcaa_reg_splash_screen%3D1
+2026-03-13 09:41:34,498 - root - ERROR - Lỗi không xác định trong luồng FB FB: Page.evaluate: document.body is null
+@debugger eval code line 291 > eval:1:1
+evaluate@debugger eval code:291:30
+@debugger eval code:1:44
+
+2026-03-13 09:41:34,614 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:34,748 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 59.153.221.209:443 via 192.168.16.100
+2026-03-13 09:41:34,791 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 59.153.221.209:443
+2026-03-13 09:41:34,820 - root - ERROR - Đăng ký thất bại. Error Code: EXCEPTION
+2026-03-13 09:41:34,846 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:34,933 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 23.50.21.119:80 via 192.168.16.100
+2026-03-13 09:41:34,982 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 23.50.21.119:80
+2026-03-13 09:41:36,134 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:36,268 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:41:36,396 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:41:36,405 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:41:36,543 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:41:36,700 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:41:43,426 - BROWSER - INFO - 🔒 [CAMOUFOX] Browser closed.
+2026-03-13 09:41:43,427 - root - INFO - Browser closed.
+2026-03-13 09:41:43,427 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-13 09:41:45,429 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#2) ---
+2026-03-13 09:41:45,429 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #2... ---
+2026-03-13 09:41:45,752 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.13
+2026-03-13 09:41:45,753 - root - INFO - [DCOM] IP cũ: 59.153.251.13 — Đang reset kết nối (huawei)...
+2026-03-13 09:41:45,791 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): hA5ucts+FzFM6PM...
+2026-03-13 09:41:45,824 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:41:50,884 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:41:50,884 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-13 09:42:06,233 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.238.208
+2026-03-13 09:42:06,234 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.251.13 → 59.153.238.208
+2026-03-13 09:42:06,553 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.238.208
+2026-03-13 09:42:06,553 - root - INFO - 🚀 IP Hiện Tại: 59.153.238.208
+2026-03-13 09:42:06,553 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-13 09:42:16,566 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-13 09:42:17,722 - GuerrillaMail - INFO - Lấy email thành công: xhyfvtzc@guerrillamail.com
+2026-03-13 09:42:17,723 - root - INFO - [DCOM_PROXY] Khởi động SOCKS5 proxy (Binding to Ethernet 2)...
+2026-03-13 09:42:17,745 - root - INFO - [DCOM_PROXY] ✅ Proxy sẵn sàng: socks5://127.0.0.1:65481
+2026-03-13 09:42:17,746 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=macos | locale=vi-VN
+2026-03-13 09:42:23,365 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:23,411 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 185.199.111.133:443 via 192.168.16.100
+2026-03-13 09:42:23,483 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 185.199.111.133:443
+2026-03-13 09:42:23,804 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:23,852 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 34.160.122.198:443 via 192.168.16.100
+2026-03-13 09:42:23,903 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 34.160.122.198:443
+2026-03-13 09:42:24,421 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:24,482 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.147.148:443 via 192.168.16.100
+2026-03-13 09:42:24,509 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.147.148:443
+2026-03-13 09:42:24,768 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:24,843 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.20.35.99:80 via 192.168.16.100
+2026-03-13 09:42:24,872 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.20.35.99:80
+2026-03-13 09:42:28,336 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:28,594 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:28,768 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 84.17.57.26:443 via 192.168.16.100
+2026-03-13 09:42:28,768 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 84.17.57.26:443 via 192.168.16.100
+2026-03-13 09:42:28,815 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 84.17.57.26:443
+2026-03-13 09:42:28,849 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 84.17.57.26:443
+2026-03-13 09:42:31,629 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:31,703 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 82.165.93.184:443 via 192.168.16.100
+2026-03-13 09:42:31,886 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:31,943 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 82.165.93.184:443 via 192.168.16.100
+2026-03-13 09:42:31,952 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 82.165.93.184:443
+2026-03-13 09:42:32,202 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 82.165.93.184:443
+2026-03-13 09:42:34,803 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:34,893 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 151.101.129.229:443 via 192.168.16.100
+2026-03-13 09:42:35,001 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 151.101.129.229:443
+2026-03-13 09:42:35,117 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:35,173 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.18.21.226:80 via 192.168.16.100
+2026-03-13 09:42:35,203 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.18.21.226:80
+2026-03-13 09:42:54,309 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:54,363 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.44.77:443 via 192.168.16.100
+2026-03-13 09:42:54,393 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.44.77:443
+2026-03-13 09:42:55,658 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:55,706 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 151.101.129.229:443 via 192.168.16.100
+2026-03-13 09:42:55,809 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 151.101.129.229:443
+2026-03-13 09:42:58,537 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:42:58,583 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 185.199.111.153:443 via 192.168.16.100
+2026-03-13 09:42:58,662 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 185.199.111.153:443
+2026-03-13 09:43:00,585 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:00,633 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.65.251.78:443 via 192.168.16.100
+2026-03-13 09:43:00,662 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.65.251.78:443
+2026-03-13 09:43:02,954 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:02,954 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:02,954 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:03,019 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 185.199.109.153:443 via 192.168.16.100
+2026-03-13 09:43:03,019 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 185.199.111.153:443 via 192.168.16.100
+2026-03-13 09:43:03,020 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.20.35.99:443 via 192.168.16.100
+2026-03-13 09:43:03,052 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.20.35.99:443
+2026-03-13 09:43:03,102 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 185.199.109.153:443
+2026-03-13 09:43:03,109 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 185.199.111.153:443
+2026-03-13 09:43:03,384 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-13 09:43:03,384 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-13 09:43:03,388 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-13 09:43:03,443 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:03,496 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 104.20.35.99:80 via 192.168.16.100
+2026-03-13 09:43:03,529 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 104.20.35.99:80
+2026-03-13 09:43:18,741 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:18,791 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.47.179:443 via 192.168.16.100
+2026-03-13 09:43:18,823 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.47.179:443
+2026-03-13 09:43:19,620 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:19,688 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.35:443 via 192.168.16.100
+2026-03-13 09:43:19,742 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.35:443
+2026-03-13 09:43:19,818 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:19,904 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 172.66.2.5:80 via 192.168.16.100
+2026-03-13 09:43:19,932 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 172.66.2.5:80
+2026-03-13 09:43:20,397 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:20,468 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:43:20,543 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:43:23,036 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:43:23,116 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.174:443 via 192.168.16.100
+2026-03-13 09:43:23,192 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.174:443
+2026-03-13 09:43:27,016 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-13 09:43:27,016 - root - INFO - [FB_REG] Email mục tiêu: xhyfvtzc@guerrillamail.com | Họ: Ho | Tên: Xuan
+2026-03-13 09:43:27,016 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-13 09:43:34,537 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-13 09:43:37,095 - root - INFO - ✅ Đã điền Họ: Ho
+2026-03-13 09:43:38,695 - root - INFO - ✅ Đã điền Tên: Xuan
+2026-03-13 09:43:38,695 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-13 09:43:39,224 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-13 09:43:39,765 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-13 09:43:39,765 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-13 09:43:40,305 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-13 09:43:40,306 - root - INFO - 🎯 Đang điền Ngày: 22
+2026-03-13 09:43:42,676 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-13 09:43:42,677 - root - INFO - 🎯 Đang điền Tháng: 8
+2026-03-13 09:43:46,495 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-13 09:43:46,496 - root - INFO - 🎯 Đang điền Năm: 1994
+2026-03-13 09:43:49,210 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-13 09:43:49,210 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-13 09:43:49,732 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-13 09:43:49,733 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-13 09:43:52,653 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-13 09:43:52,653 - root - INFO - 🎯 Đang điền Email: xhyfvtzc@guerrillamail.com (Step 8)
+2026-03-13 09:43:56,248 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-13 09:43:56,794 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-13 09:43:56,794 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-13 09:43:57,318 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-13 09:43:57,319 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-13 09:43:59,986 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-13 09:44:00,505 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-13 09:44:00,505 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-13 09:44:01,034 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-13 09:44:01,034 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-13 09:44:01,563 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-13 09:44:01,564 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-13 09:44:02,087 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-13 09:44:02,087 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-13 09:44:02,613 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-13 09:44:02,613 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-13 09:44:03,146 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-13 09:44:03,147 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-13 09:44:03,147 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-13 09:44:05,169 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-13 09:44:08,188 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-13 09:44:10,484 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:10,555 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:44:10,608 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:44:12,594 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:12,720 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:12,865 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:12,885 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:13,044 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:13,214 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:13,261 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:13,425 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:13,518 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:13,520 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:13,604 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:13,712 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:18,197 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-13 09:44:18,198 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-13 09:44:18,198 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-13 09:44:18,198 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-13 09:44:23,219 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-13 09:44:23,219 - GuerrillaMail - INFO - Đang quét hộp thư cho xhyfvtzc@guerrillamail.com...
+2026-03-13 09:44:24,165 - root - INFO - [FB_REG] 🎉 Đã lấy được mã: 54545
+2026-03-13 09:44:24,491 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_1 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-13 09:44:24,492 - root - INFO - 🎯 Xác định ô nhập mã OTP! Điền: 54545
+2026-03-13 09:44:25,894 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_2 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-13 09:44:26,229 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_3 | Tag: DIV | Aria:  | Text: Tiếp tục | Role: button
+2026-03-13 09:44:26,229 - root - INFO - 🎯 Đã thấy nút Submit chính (tiếp tục)! Nhấn Enter...
+2026-03-13 09:44:26,244 - root - INFO - ⏳ Đợi trang chuyển sau khi nhấn Submit...
+2026-03-13 09:44:34,146 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:34,211 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:34,264 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:34,439 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:34,488 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:34,538 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:34,734 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:34,815 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:44:34,924 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:44:35,310 - root - INFO - 🔄 [URL_CHANGED] Trang đã chuyển sau 9.0s: https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F%3Fcaa_reg_splash_screen%3D1
+2026-03-13 09:44:35,319 - root - ERROR - Lỗi không xác định trong luồng FB FB: Page.evaluate: document.body is null
+@debugger eval code line 291 > eval:1:1
+evaluate@debugger eval code:291:30
+@debugger eval code:1:44
+
+2026-03-13 09:44:35,863 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:35,864 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:35,865 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:35,996 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:44:36,000 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 137.59.33.209:443 via 192.168.16.100
+2026-03-13 09:44:36,006 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.11:443 via 192.168.16.100
+2026-03-13 09:44:36,043 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 137.59.33.209:443
+2026-03-13 09:44:36,063 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:44:36,073 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.11:443
+2026-03-13 09:44:36,100 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:36,106 - root - ERROR - Đăng ký thất bại. Error Code: EXCEPTION
+2026-03-13 09:44:36,180 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 23.50.21.119:80 via 192.168.16.100
+2026-03-13 09:44:36,233 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 23.50.21.119:80
+2026-03-13 09:44:37,960 - DCOMProxy - INFO - [DCOMProxy] 📥 Incoming connection (local_ip=192.168.16.100)
+2026-03-13 09:44:38,024 - DCOMProxy - INFO - [DCOMProxy] ✅ Connecting to 163.70.158.14:443 via 192.168.16.100
+2026-03-13 09:44:38,090 - DCOMProxy - INFO - [DCOMProxy] 🔗 Established: 163.70.158.14:443
+2026-03-13 09:44:44,320 - BROWSER - INFO - 🔒 [CAMOUFOX] Browser closed.
+2026-03-13 09:44:44,320 - root - INFO - Browser closed.
+2026-03-13 09:44:44,320 - root - INFO - --- 💤 Chu kỳ #2 kết thúc. Chuyển sang lượt mới... ---
+2026-03-13 09:44:46,330 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#3) ---
+2026-03-13 09:44:46,330 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #3... ---
+2026-03-13 09:44:46,674 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.238.208
+2026-03-13 09:44:46,674 - root - INFO - [DCOM] IP cũ: 59.153.238.208 — Đang reset kết nối (huawei)...
+2026-03-13 09:44:46,716 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): H/r3L5YcW8jveUa...
+2026-03-13 09:44:46,735 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:44:51,795 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-13 09:44:51,795 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-13 09:45:07,145 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.12
+2026-03-13 09:45:07,145 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.238.208 → 59.153.251.12
+2026-03-13 09:45:07,316 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\welcome\\AppData\\Local\\camoufox\\camoufox\\Cache\\camoufox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\welcome\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BFDWsn -juggler-pipe -silent\n<launched> pid=39372\n[pid=39372][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 57: unreachable code after return statement\n[pid=39372][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement\n[pid=39372][err] DEBUG: Juggler pipe initialized\n[pid=39372][err] DEBUG: Dispatcher created\n[pid=39372][out] \n[pid=39372][out] Juggler listening to the pipe\n[pid=39372][err] DEBUG: BrowserHandler created\n[pid=39372][err] DEBUG: BrowserHandler set as root session handler\n[pid=39372][out] console.error: "Warning: unrecognized command line flag" "-foreground"\n[pid=39372][out] console.error: "Ignoring protocol handler for mailto without a uriTemplate!"\n[pid=39372][out] console.error: SearchService: "#init: failure initializing search:" (new TypeError("defaultsConfig is undefined", "resource://gre/modules/SearchEngineSelector.sys.mjs", 752))\n[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39372][out] console.error: WebExtensions: \n[pid=39372][out]   Message: TypeError: defaultsConfig is undefined\n[pid=39372][out]   Stack:\n[pid=39372][out]     #defaultEngines@resource://gre/modules/SearchEngineSelector.sys.mjs:752:22\n[pid=39372][out] fetchEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:375:65\n[pid=39372][out] \n[pid=39372][out] console.error: "Could not parse ASRouter preference. Try resetting browser.newtabpage.activity-stream.asrouter.providers.snippets in about:config."\n[pid=39372][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))\n[pid=39372][err] DEBUG: Installed 1 addon(s)\n[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/y0/l/vi_VN-j/uhjuPLmp8DA.js, line 139: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=39372][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y-/l/vi_VN-j/Dut67Qxygso.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=39372][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iMpv4/yw/l/vi_VN-j/Q80HLun7Xfk7Ttl8WyZ6MgoYcdZsqaVrvyVgiHXA0rQxmTgJb_LWU59qu3wyKhaecw9ViWLQ85c_Gvwd3CjCtYI_Ypv75kjE4hlqHaWLggNE6RfRwFMDtxmw1f2SPoc_mKHSCR5pt_bMU5Y.js, line 658: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y7/l/vi_VN-j/ulVE58VFxMZ.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=39372][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=39372][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39372][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iHpA4/yV/l/vi_VN-j/oprqu2DptCZR9va7YpS59923ZEuwq_tzdpUp39oPdFsqCJbOs-PacEusZxs56U0GQLOSLSEb9OssDFqURhiwtLtC9JEkqANPaBvTub9L7SozPwkvTbriHZiYWHGv_jCDobQZfPDD04t52kAUYMJrIgSdZwXrLerc9vhDpjej4k1xEao-4jcU42wtP4vpKuoqobUF9jJCikkkCoutiADEobNIEPbhMlqHxmNmI2PaJvgw1yjpJSQ5cwi__PGVYsMXE4YgCRwp.js, line 219: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n[pid=39372] <gracefully close start>\n[pid=39372][err] DEBUG: BrowserHandler cleanup callback called\n[pid=39372][out] \n[pid=39372][out]         ERROR: EventWatcher is being disposed dispose@chrome://juggler/content/Helper.js:230:22\n[pid=39372][out] dispose@chrome://juggler/content/protocol/PageHandler.js:168:15\n[pid=39372][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21\n[pid=39372][out] destroySession@chrome://juggler/content/protocol/Dispatcher.js:36:13\n[pid=39372][out] dispose@chrome://juggler/content/protocol/BrowserHandler.js:79:24\n[pid=39372][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21\n[pid=39372][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:42:23\n[pid=39372][out] observe/browserHandler<@chrome://juggler/content/components/Juggler.js:145:22\n[pid=39372][out] Browser.close@chrome://juggler/content/protocol/BrowserHandler.js:150:10\n[pid=39372][out] \n[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js, line 64: Script terminated by timeout at:\n[pid=39372][err] F@https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js:64:1521\n[pid=39372][err] e@https://static.xx.fbcdn.net/rsrc.php/v4idXl4/yg/l/vi_VN-j/fDeJxW-j6gO.js:108:177\n[pid=39372][err] \n[pid=39372][err] JavaScript error: chrome://juggler/content/components/Juggler.js, line 134: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIRemoteDebuggingPipe.sendMessage]\n[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39372][out]       ')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\welcome\AppData\Local\camoufox\camoufox\Cache\camoufox.exe -no-remote -wait-for-browser -foreground -profile C:\Users\welcome\AppData\Local\Temp\playwright_firefoxdev_profile-BFDWsn -juggler-pipe -silent
+<launched> pid=39372
+[pid=39372][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 57: unreachable code after return statement
+[pid=39372][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement
+[pid=39372][err] DEBUG: Juggler pipe initialized
+[pid=39372][err] DEBUG: Dispatcher created
+[pid=39372][out] 
+[pid=39372][out] Juggler listening to the pipe
+[pid=39372][err] DEBUG: BrowserHandler created
+[pid=39372][err] DEBUG: BrowserHandler set as root session handler
+[pid=39372][out] console.error: "Warning: unrecognized command line flag" "-foreground"
+[pid=39372][out] console.error: "Ignoring protocol handler for mailto without a uriTemplate!"
+[pid=39372][out] console.error: SearchService: "#init: failure initializing search:" (new TypeError("defaultsConfig is undefined", "resource://gre/modules/SearchEngineSelector.sys.mjs", 752))
+[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=39372][out] console.error: WebExtensions: 
+[pid=39372][out]   Message: TypeError: defaultsConfig is undefined
+[pid=39372][out]   Stack:
+[pid=39372][out]     #defaultEngines@resource://gre/modules/SearchEngineSelector.sys.mjs:752:22
+[pid=39372][out] fetchEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:375:65
+[pid=39372][out] 
+[pid=39372][out] console.error: "Could not parse ASRouter preference. Try resetting browser.newtabpage.activity-stream.asrouter.providers.snippets in about:config."
+[pid=39372][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))
+[pid=39372][err] DEBUG: Installed 1 addon(s)
+[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/y0/l/vi_VN-j/uhjuPLmp8DA.js, line 139: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=39372][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y-/l/vi_VN-j/Dut67Qxygso.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=39372][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iMpv4/yw/l/vi_VN-j/Q80HLun7Xfk7Ttl8WyZ6MgoYcdZsqaVrvyVgiHXA0rQxmTgJb_LWU59qu3wyKhaecw9ViWLQ85c_Gvwd3CjCtYI_Ypv75kjE4hlqHaWLggNE6RfRwFMDtxmw1f2SPoc_mKHSCR5pt_bMU5Y.js, line 658: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y7/l/vi_VN-j/ulVE58VFxMZ.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=39372][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=39372][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=39372][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=39372][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iHpA4/yV/l/vi_VN-j/oprqu2DptCZR9va7YpS59923ZEuwq_tzdpUp39oPdFsqCJbOs-PacEusZxs56U0GQLOSLSEb9OssDFqURhiwtLtC9JEkqANPaBvTub9L7SozPwkvTbriHZiYWHGv_jCDobQZfPDD04t52kAUYMJrIgSdZwXrLerc9vhDpjej4k1xEao-4jcU42wtP4vpKuoqobUF9jJCikkkCoutiADEobNIEPbhMlqHxmNmI2PaJvgw1yjpJSQ5cwi__PGVYsMXE4YgCRwp.js, line 219: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+[pid=39372] <gracefully close start>
+[pid=39372][err] DEBUG: BrowserHandler cleanup callback called
+[pid=39372][out] 
+[pid=39372][out]         ERROR: EventWatcher is being disposed dispose@chrome://juggler/content/Helper.js:230:22
+[pid=39372][out] dispose@chrome://juggler/content/protocol/PageHandler.js:168:15
+[pid=39372][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21
+[pid=39372][out] destroySession@chrome://juggler/content/protocol/Dispatcher.js:36:13
+[pid=39372][out] dispose@chrome://juggler/content/protocol/BrowserHandler.js:79:24
+[pid=39372][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21
+[pid=39372][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:42:23
+[pid=39372][out] observe/browserHandler<@chrome://juggler/content/components/Juggler.js:145:22
+[pid=39372][out] Browser.close@chrome://juggler/content/protocol/BrowserHandler.js:150:10
+[pid=39372][out] 
+[pid=39372][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js, line 64: Script terminated by timeout at:
+[pid=39372][err] F@https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js:64:1521
+[pid=39372][err] e@https://static.xx.fbcdn.net/rsrc.php/v4idXl4/yg/l/vi_VN-j/fDeJxW-j6gO.js:108:177
+[pid=39372][err] 
+[pid=39372][err] JavaScript error: chrome://juggler/content/components/Juggler.js, line 134: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIRemoteDebuggingPipe.sendMessage]
+[pid=39372][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=39372][out]       
+2026-03-13 09:45:07,322 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\welcome\\AppData\\Local\\camoufox\\camoufox\\Cache\\camoufox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\welcome\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-0NlPQZ -juggler-pipe -silent\n<launched> pid=23088\n[pid=23088][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 57: unreachable code after return statement\n[pid=23088][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement\n[pid=23088][err] DEBUG: Juggler pipe initialized\n[pid=23088][err] DEBUG: Dispatcher created\n[pid=23088][out] \n[pid=23088][out] Juggler listening to the pipe\n[pid=23088][err] DEBUG: BrowserHandler created\n[pid=23088][err] DEBUG: BrowserHandler set as root session handler\n[pid=23088][out] console.error: "Warning: unrecognized command line flag" "-foreground"\n[pid=23088][out] console.error: "Ignoring protocol handler for mailto without a uriTemplate!"\n[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=23088][err] DEBUG: Installed 1 addon(s)\n[pid=23088][out] console.error: SearchService: "#init: failure initializing search:" (new TypeError("defaultsConfig is undefined", "resource://gre/modules/SearchEngineSelector.sys.mjs", 752))\n[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=23088][out] console.error: WebExtensions: \n[pid=23088][out]   Message: TypeError: defaultsConfig is undefined\n[pid=23088][out]   Stack:\n[pid=23088][out]     #defaultEngines@resource://gre/modules/SearchEngineSelector.sys.mjs:752:22\n[pid=23088][out] fetchEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:375:65\n[pid=23088][out] \n[pid=23088][out] console.error: "Could not parse ASRouter preference. Try resetting browser.newtabpage.activity-stream.asrouter.providers.snippets in about:config."\n[pid=23088][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))\n[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/y0/l/vi_VN-j/uhjuPLmp8DA.js, line 139: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=23088][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=23088][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y-/l/vi_VN-j/Dut67Qxygso.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=23088][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iw2O4/yv/l/vi_VN-j/Q80HLun7Xfk7Ttl8WyZ6MgoYcdZsqaVrvyVgiHXA0rQxmTgJb_LWU59qu3wyKhaecw9ViWLQ85c_Gvwd3CjCtYI_Ypv75kjE4hlqHaWLggNE6RfRwFMDtxmw1f2SPoc_mKHSCR5pt_bMU5YZK5Za1P76st.js, line 658: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y7/l/vi_VN-j/ulVE58VFxMZ.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=23088][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=23088][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iHpA4/ym/l/vi_VN-j/oprqu2DptCZR9va7YpS59923ZEuwq_tzdpUp39oPdFsqCJbOs-PacEusZxs56U0GQLOSLSEb9OssDFqURhiwtLtC9JEkqANPaBvTub9L7SozPwkvTbriHZiYWHGv_jCDobQZfPDD04t52kAUYMJrIgSdZwXrLerc9vhDpjej4k1xEao-4jcU42wtP4vpKuoqobUF9jJCikkkCoutiADEobNIEPbhMlqHxmNmI2PaJvgw1yjpJSQ5cwi__PGVYsMXE4YgCRwpv_kkAv_-wGQ.js, line 219: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n[pid=23088] <gracefully close start>\n[pid=23088][err] DEBUG: BrowserHandler cleanup callback called\n[pid=23088][out] \n[pid=23088][out]         ERROR: EventWatcher is being disposed dispose@chrome://juggler/content/Helper.js:230:22\n[pid=23088][out] dispose@chrome://juggler/content/protocol/PageHandler.js:168:15\n[pid=23088][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21\n[pid=23088][out] destroySession@chrome://juggler/content/protocol/Dispatcher.js:36:13\n[pid=23088][out] dispose@chrome://juggler/content/protocol/BrowserHandler.js:79:24\n[pid=23088][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21\n[pid=23088][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:42:23\n[pid=23088][out] observe/browserHandler<@chrome://juggler/content/components/Juggler.js:145:22\n[pid=23088][out] Browser.close@chrome://juggler/content/protocol/BrowserHandler.js:150:10\n[pid=23088][out] \n[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js, line 64: Script terminated by timeout at:\n[pid=23088][err] F@https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js:64:1521\n[pid=23088][err] e@https://static.xx.fbcdn.net/rsrc.php/v4idXl4/yg/l/vi_VN-j/fDeJxW-j6gO.js:108:177\n[pid=23088][err] \n[pid=23088][err] JavaScript error: chrome://juggler/content/components/Juggler.js, line 134: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIRemoteDebuggingPipe.sendMessage]\n[pid=23088][err] JavaScript error: resource://gre/modules/ConduitsChild.sys.mjs, line 199: Error: PortDisconnect for closed conduit 824633720851: ({portId:824633720850, source:true, error:null})\n[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=23088][out]       ')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\welcome\AppData\Local\camoufox\camoufox\Cache\camoufox.exe -no-remote -wait-for-browser -foreground -profile C:\Users\welcome\AppData\Local\Temp\playwright_firefoxdev_profile-0NlPQZ -juggler-pipe -silent
+<launched> pid=23088
+[pid=23088][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 57: unreachable code after return statement
+[pid=23088][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement
+[pid=23088][err] DEBUG: Juggler pipe initialized
+[pid=23088][err] DEBUG: Dispatcher created
+[pid=23088][out] 
+[pid=23088][out] Juggler listening to the pipe
+[pid=23088][err] DEBUG: BrowserHandler created
+[pid=23088][err] DEBUG: BrowserHandler set as root session handler
+[pid=23088][out] console.error: "Warning: unrecognized command line flag" "-foreground"
+[pid=23088][out] console.error: "Ignoring protocol handler for mailto without a uriTemplate!"
+[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=23088][err] DEBUG: Installed 1 addon(s)
+[pid=23088][out] console.error: SearchService: "#init: failure initializing search:" (new TypeError("defaultsConfig is undefined", "resource://gre/modules/SearchEngineSelector.sys.mjs", 752))
+[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=23088][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=23088][out] console.error: WebExtensions: 
+[pid=23088][out]   Message: TypeError: defaultsConfig is undefined
+[pid=23088][out]   Stack:
+[pid=23088][out]     #defaultEngines@resource://gre/modules/SearchEngineSelector.sys.mjs:752:22
+[pid=23088][out] fetchEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:375:65
+[pid=23088][out] 
+[pid=23088][out] console.error: "Could not parse ASRouter preference. Try resetting browser.newtabpage.activity-stream.asrouter.providers.snippets in about:config."
+[pid=23088][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))
+[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4ilwa4/y0/l/vi_VN-j/uhjuPLmp8DA.js, line 139: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=23088][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=23088][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y-/l/vi_VN-j/Dut67Qxygso.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=23088][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iw2O4/yv/l/vi_VN-j/Q80HLun7Xfk7Ttl8WyZ6MgoYcdZsqaVrvyVgiHXA0rQxmTgJb_LWU59qu3wyKhaecw9ViWLQ85c_Gvwd3CjCtYI_Ypv75kjE4hlqHaWLggNE6RfRwFMDtxmw1f2SPoc_mKHSCR5pt_bMU5YZK5Za1P76st.js, line 658: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y7/l/vi_VN-j/ulVE58VFxMZ.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=23088][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=23088][err] JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v4iHpA4/ym/l/vi_VN-j/oprqu2DptCZR9va7YpS59923ZEuwq_tzdpUp39oPdFsqCJbOs-PacEusZxs56U0GQLOSLSEb9OssDFqURhiwtLtC9JEkqANPaBvTub9L7SozPwkvTbriHZiYWHGv_jCDobQZfPDD04t52kAUYMJrIgSdZwXrLerc9vhDpjej4k1xEao-4jcU42wtP4vpKuoqobUF9jJCikkkCoutiADEobNIEPbhMlqHxmNmI2PaJvgw1yjpJSQ5cwi__PGVYsMXE4YgCRwpv_kkAv_-wGQ.js, line 219: Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+[pid=23088] <gracefully close start>
+[pid=23088][err] DEBUG: BrowserHandler cleanup callback called
+[pid=23088][out] 
+[pid=23088][out]         ERROR: EventWatcher is being disposed dispose@chrome://juggler/content/Helper.js:230:22
+[pid=23088][out] dispose@chrome://juggler/content/protocol/PageHandler.js:168:15
+[pid=23088][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21
+[pid=23088][out] destroySession@chrome://juggler/content/protocol/Dispatcher.js:36:13
+[pid=23088][out] dispose@chrome://juggler/content/protocol/BrowserHandler.js:79:24
+[pid=23088][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21
+[pid=23088][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:42:23
+[pid=23088][out] observe/browserHandler<@chrome://juggler/content/components/Juggler.js:145:22
+[pid=23088][out] Browser.close@chrome://juggler/content/protocol/BrowserHandler.js:150:10
+[pid=23088][out] 
+[pid=23088][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js, line 64: Script terminated by timeout at:
+[pid=23088][err] F@https://static.xx.fbcdn.net/rsrc.php/v4/yM/r/xWqCxzZ0hLy.js:64:1521
+[pid=23088][err] e@https://static.xx.fbcdn.net/rsrc.php/v4idXl4/yg/l/vi_VN-j/fDeJxW-j6gO.js:108:177
+[pid=23088][err] 
+[pid=23088][err] JavaScript error: chrome://juggler/content/components/Juggler.js, line 134: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIRemoteDebuggingPipe.sendMessage]
+[pid=23088][err] JavaScript error: resource://gre/modules/ConduitsChild.sys.mjs, line 199: Error: PortDisconnect for closed conduit 824633720851: ({portId:824633720850, source:true, error:null})
+[pid=23088][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=23088][out]       

@@ -1,0 +1,62 @@
+2026-03-12 18:03:46,634 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-12 18:03:46,635 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-12 18:03:46,990 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.54
+2026-03-12 18:03:46,991 - root - INFO - [DCOM] IP cũ: 59.153.251.54 — Đang reset kết nối (huawei)...
+2026-03-12 18:03:47,029 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): KiyaRz7HewLbLTG...
+2026-03-12 18:03:47,053 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 18:03:52,132 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 18:03:52,133 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 18:04:07,448 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.195
+2026-03-12 18:04:07,449 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.251.54 → 59.153.251.195
+2026-03-12 18:04:07,764 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.195
+2026-03-12 18:04:07,765 - root - INFO - 🚀 IP Hiện Tại: 59.153.251.195
+2026-03-12 18:04:07,765 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 18:04:17,778 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 18:04:18,892 - GuerrillaMail - INFO - Lấy email thành công: exqnhrui@guerrillamailblock.com
+2026-03-12 18:04:18,892 - root - INFO - [DCOM_PROXY] Khởi động SOCKS5 proxy (Binding to Ethernet 2)...
+2026-03-12 18:04:18,913 - DCOMProxy - INFO - [DCOMProxy] ✅ SOCKS5 Proxy active at 127.0.0.1:57820
+2026-03-12 18:04:18,914 - DCOMProxy - INFO - [DCOMProxy] 🔗 Dynamic Routing via 192.168.16.1 is active.
+2026-03-12 18:04:18,914 - root - INFO - [DCOM_PROXY] ✅ Proxy sẵn sàng: socks5://127.0.0.1:57820
+2026-03-12 18:04:19,366 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 18:04:32,797 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 18:04:32,797 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-12 18:04:32,825 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 18:04:35,265 - root - INFO - 📡 [FB_TRACKING] POST -> https://www.facebook.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=15&__hs=20524.HYP%3Acomet_loggedo | Payload: ------geckoformboundaryfacc75d832a6a2ce87e86c356829e7e9
+Content-Disposition: form-data; name="ts"
+
+1773313475255
+------geckoformboundaryfacc75d832...
+2026-03-12 18:04:36,986 - root - INFO - 📡 [FB_TRACKING] POST -> https://www.facebook.com/ajax/bz?__a=1&__ccg=EXCELLENT&__comet_req=15&__hs=20524.HYP%3Acomet_loggedo
+2026-03-12 18:04:38,894 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 18:04:38,894 - root - INFO - [FB_REG] Email mục tiêu: exqnhrui@guerrillamailblock.com | Họ: Do | Tên: Tuan
+2026-03-12 18:04:38,894 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 18:04:42,577 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 18:04:48,196 - root - INFO - ✅ Đã điền Họ: Do
+2026-03-12 18:04:49,313 - root - INFO - ✅ Đã điền Tên: Tuan
+2026-03-12 18:04:49,313 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 18:04:49,953 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: A | Aria:  | Text:  | Role: 
+2026-03-12 18:04:49,953 - root - INFO - ⏭️ Bỏ qua link: 
+2026-03-12 18:04:50,634 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: A | Aria:  | Text: My IP | Role: 
+2026-03-12 18:04:50,634 - root - INFO - ⏭️ Bỏ qua link: my ip
+2026-03-12 18:04:51,163 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: A | Aria:  | Text: VPN | Role: 
+2026-03-12 18:04:51,163 - root - INFO - ⏭️ Bỏ qua link: vpn
+2026-03-12 18:04:51,693 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: A | Aria:  | Text: WADE X Browser | Role: 
+2026-03-12 18:04:51,694 - root - INFO - ⏭️ Bỏ qua link: wade x browser
+2026-03-12 18:04:52,219 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: A | Aria:  | Text: Crypto | Role: 
+2026-03-12 18:04:52,219 - root - INFO - ⏭️ Bỏ qua link: crypto
+2026-03-12 18:04:52,948 - root - WARNING - Lỗi khi log focus: Page.evaluate: Target page, context or browser has been closed
+2026-03-12 18:04:52,950 - root - ERROR - Lỗi trong chuỗi điền form Tab-Sequence: Keyboard.press: Target page, context or browser has been closed
+2026-03-12 18:04:52,954 - root - ERROR - Đăng ký thất bại. Error Code: FILL_ERROR
+2026-03-12 18:04:56,355 - BROWSER - INFO - 🔒 [CAMOUFOX] Browser closed.
+2026-03-12 18:04:56,356 - root - INFO - Browser closed.
+2026-03-12 18:04:56,356 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 18:04:58,362 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#2) ---
+2026-03-12 18:04:58,362 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #2... ---
+2026-03-12 18:04:59,126 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.251.195
+2026-03-12 18:04:59,126 - root - INFO - [DCOM] IP cũ: 59.153.251.195 — Đang reset kết nối (huawei)...
+2026-03-12 18:04:59,163 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): tDcX7Jt4GCiR/wb...
+2026-03-12 18:04:59,193 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 18:05:04,273 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 18:05:04,273 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 18:05:20,170 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.225.104
+2026-03-12 18:05:20,170 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.251.195 → 59.153.225.104

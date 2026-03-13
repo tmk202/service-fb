@@ -1,0 +1,198 @@
+2026-03-12 16:21:48,069 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-12 16:21:48,069 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-12 16:21:48,910 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.238.251
+2026-03-12 16:21:48,910 - root - INFO - [DCOM] IP cũ: 59.153.238.251 — Đang reset kết nối (huawei)...
+2026-03-12 16:21:48,946 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): 0E3FTmtlamwVTcI...
+2026-03-12 16:21:48,980 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:21:54,070 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:21:54,070 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 16:22:09,434 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.27
+2026-03-12 16:22:09,434 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.238.251 → 59.153.226.27
+2026-03-12 16:22:09,748 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.27
+2026-03-12 16:22:09,748 - root - INFO - 🚀 IP Hiện Tại: 59.153.226.27
+2026-03-12 16:22:09,749 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 16:22:19,756 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 16:22:20,944 - GuerrillaMail - INFO - Lấy email thành công: bekxlzjq@pokemail.net
+2026-03-12 16:22:21,262 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 16:22:26,720 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 16:22:26,721 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 16:22:26,721 - root - INFO - [FB_REG] Email mục tiêu: bekxlzjq@pokemail.net | Họ: Ly | Tên: Xuan
+2026-03-12 16:22:26,721 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 16:22:26,725 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 16:22:35,696 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 16:22:38,005 - root - INFO - ✅ Đã điền Họ: Ly
+2026-03-12 16:22:39,433 - root - INFO - ✅ Đã điền Tên: Xuan
+2026-03-12 16:22:39,433 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 16:22:39,964 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:22:40,506 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-12 16:22:40,506 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-12 16:22:41,034 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-12 16:22:41,035 - root - INFO - 🎯 Đang điền Ngày: 1
+2026-03-12 16:22:43,263 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-12 16:22:43,263 - root - INFO - 🎯 Đang điền Tháng: 4
+2026-03-12 16:22:47,101 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-12 16:22:47,101 - root - INFO - 🎯 Đang điền Năm: 1991
+2026-03-12 16:22:49,784 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-12 16:22:49,784 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-12 16:22:50,311 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-12 16:22:50,311 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-12 16:22:53,214 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:22:53,214 - root - INFO - 🎯 Đang điền Email: bekxlzjq@pokemail.net (Step 8)
+2026-03-12 16:22:56,182 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:22:56,726 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 16:22:56,727 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-12 16:22:57,255 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:22:57,255 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-12 16:22:59,694 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 16:23:00,226 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 16:23:00,226 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-12 16:23:00,754 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 16:23:00,754 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-12 16:23:01,280 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:23:01,281 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:23:01,809 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-12 16:23:01,809 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-12 16:23:02,351 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:23:02,351 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:23:02,879 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-12 16:23:02,880 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-12 16:23:02,880 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-12 16:23:04,897 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-12 16:23:07,941 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-12 16:23:17,956 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:23:17,956 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:23:17,956 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-12 16:23:17,956 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-12 16:23:22,969 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-12 16:23:22,969 - GuerrillaMail - INFO - Đang quét hộp thư cho bekxlzjq@pokemail.net...
+2026-03-12 16:25:26,791 - root - ERROR - [FB_REG] Không lấy được mã code từ email.
+2026-03-12 16:25:27,128 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:25:27,470 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_2 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 16:25:27,800 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_3 | Tag: INPUT | Aria:  | Text: 01rFYptg&^J@ | Role: 
+2026-03-12 16:25:28,124 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_4 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 16:25:28,452 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_5 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 16:25:28,779 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_6 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 16:25:28,779 - root - INFO - 🏁 Có vẻ đã thoát khỏi luồng xác minh. Kiểm tra kết quả...
+2026-03-12 16:25:28,779 - root - INFO - --- Đã hoàn tất luồng kiểm tra hậu OTP ---
+2026-03-12 16:25:33,852 - root - INFO - [FB_REG] URL hiện tại: https://www.facebook.com/r.php
+2026-03-12 16:25:33,852 - root - WARNING - [FB_REG] ❌ Kết quả KHÔNG thành công. URL: https://www.facebook.com/r.php
+2026-03-12 16:25:33,852 - root - ERROR - Đăng ký thất bại. Error Code: REG_FAILED
+2026-03-12 16:25:42,093 - BROWSER - INFO - 🔒 [CAMOUFOX] Browser closed.
+2026-03-12 16:25:42,093 - root - INFO - Browser closed.
+2026-03-12 16:25:42,094 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 16:25:44,104 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#2) ---
+2026-03-12 16:25:44,104 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #2... ---
+2026-03-12 16:25:44,900 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.27
+2026-03-12 16:25:44,900 - root - INFO - [DCOM] IP cũ: 59.153.226.27 — Đang reset kết nối (huawei)...
+2026-03-12 16:25:44,935 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): xjJzSFWWYZb2zi+...
+2026-03-12 16:25:44,971 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:25:50,041 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:25:50,041 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 16:26:05,930 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.254.136
+2026-03-12 16:26:05,930 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.226.27 → 59.153.254.136
+2026-03-12 16:26:06,759 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.254.136
+2026-03-12 16:26:06,759 - root - INFO - 🚀 IP Hiện Tại: 59.153.254.136
+2026-03-12 16:26:06,760 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 16:26:16,775 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 16:26:18,259 - GuerrillaMail - INFO - Lấy email thành công: tkvzakzw@pokemail.net
+2026-03-12 16:26:18,260 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 16:26:38,709 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 16:26:38,710 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 16:26:38,710 - root - INFO - [FB_REG] Email mục tiêu: tkvzakzw@pokemail.net | Họ: Duong | Tên: Ngoc
+2026-03-12 16:26:38,710 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 16:26:38,712 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 16:26:43,508 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 16:26:46,360 - root - INFO - ✅ Đã điền Họ: Duong
+2026-03-12 16:26:47,820 - root - INFO - ✅ Đã điền Tên: Ngoc
+2026-03-12 16:26:47,820 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 16:26:48,351 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:26:48,892 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-12 16:26:48,892 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-12 16:26:49,419 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-12 16:26:49,419 - root - INFO - 🎯 Đang điền Ngày: 25
+2026-03-12 16:26:51,132 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\welcome\\AppData\\Local\\camoufox\\camoufox\\Cache\\camoufox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\welcome\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-XaxVzG -juggler-pipe -silent\n<launched> pid=5880\n[pid=5880][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 57: unreachable code after return statement\n[pid=5880][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement\n[pid=5880][err] DEBUG: Juggler pipe initialized\n[pid=5880][err] DEBUG: Dispatcher created\n[pid=5880][err] DEBUG: BrowserHandler created\n[pid=5880][out] \n[pid=5880][out] Juggler listening to the pipe\n[pid=5880][err] DEBUG: BrowserHandler set as root session handler\n[pid=5880][out] console.error: "Warning: unrecognized command line flag" "-foreground"\n[pid=5880][out] console.error: "Ignoring protocol handler for mailto without a uriTemplate!"\n[pid=5880][out] console.error: SearchService: "#init: failure initializing search:" (new TypeError("defaultsConfig is undefined", "resource://gre/modules/SearchEngineSelector.sys.mjs", 752))\n[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined\n[pid=5880][out] console.error: "Could not parse ASRouter preference. Try resetting browser.newtabpage.activity-stream.asrouter.providers.snippets in about:config."\n[pid=5880][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))\n[pid=5880][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=5880][out] console.error: WebExtensions: \n[pid=5880][out]   Message: TypeError: defaultsConfig is undefined\n[pid=5880][out]   Stack:\n[pid=5880][out]     #defaultEngines@resource://gre/modules/SearchEngineSelector.sys.mjs:752:22\n[pid=5880][out] fetchEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:375:65\n[pid=5880][out] \n[pid=5880][err] DEBUG: Installed 1 addon(s)\n[pid=5880][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined\n[pid=5880][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=5880][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y-/l/vi_VN-j/Dut67Qxygso.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=5880] <gracefully close start>\n[pid=5880][err] DEBUG: BrowserHandler cleanup callback called\n[pid=5880][out] \n[pid=5880][out]         ERROR: EventWatcher is being disposed dispose@chrome://juggler/content/Helper.js:230:22\n[pid=5880][out] dispose@chrome://juggler/content/protocol/PageHandler.js:168:15\n[pid=5880][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21\n[pid=5880][out] destroySession@chrome://juggler/content/protocol/Dispatcher.js:36:13\n[pid=5880][out] dispose@chrome://juggler/content/protocol/BrowserHandler.js:79:24\n[pid=5880][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21\n[pid=5880][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:42:23\n[pid=5880][out] observe/browserHandler<@chrome://juggler/content/components/Juggler.js:145:22\n[pid=5880][out] Browser.close@chrome://juggler/content/protocol/BrowserHandler.js:150:10\n[pid=5880][out] \n[pid=5880][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=5880][err] JavaScript error: chrome://juggler/content/components/Juggler.js, line 134: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIRemoteDebuggingPipe.sendMessage]\n[pid=5880][out]       ')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\welcome\AppData\Local\camoufox\camoufox\Cache\camoufox.exe -no-remote -wait-for-browser -foreground -profile C:\Users\welcome\AppData\Local\Temp\playwright_firefoxdev_profile-XaxVzG -juggler-pipe -silent
+<launched> pid=5880
+[pid=5880][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 57: unreachable code after return statement
+[pid=5880][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement
+[pid=5880][err] DEBUG: Juggler pipe initialized
+[pid=5880][err] DEBUG: Dispatcher created
+[pid=5880][err] DEBUG: BrowserHandler created
+[pid=5880][out] 
+[pid=5880][out] Juggler listening to the pipe
+[pid=5880][err] DEBUG: BrowserHandler set as root session handler
+[pid=5880][out] console.error: "Warning: unrecognized command line flag" "-foreground"
+[pid=5880][out] console.error: "Ignoring protocol handler for mailto without a uriTemplate!"
+[pid=5880][out] console.error: SearchService: "#init: failure initializing search:" (new TypeError("defaultsConfig is undefined", "resource://gre/modules/SearchEngineSelector.sys.mjs", 752))
+[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=5880][err] JavaScript error: resource://gre/modules/SearchEngineSelector.sys.mjs, line 752: TypeError: defaultsConfig is undefined
+[pid=5880][out] console.error: "Could not parse ASRouter preference. Try resetting browser.newtabpage.activity-stream.asrouter.providers.snippets in about:config."
+[pid=5880][out] console.error: SearchSettings: "_write: Could not write to settings file:" (new Error("cannot write without any engine.", "resource://gre/modules/SearchSettings.sys.mjs", 280))
+[pid=5880][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=5880][out] console.error: WebExtensions: 
+[pid=5880][out]   Message: TypeError: defaultsConfig is undefined
+[pid=5880][out]   Stack:
+[pid=5880][out]     #defaultEngines@resource://gre/modules/SearchEngineSelector.sys.mjs:752:22
+[pid=5880][out] fetchEngineConfiguration@resource://gre/modules/SearchEngineSelector.sys.mjs:375:65
+[pid=5880][out] 
+[pid=5880][err] DEBUG: Installed 1 addon(s)
+[pid=5880][err] JavaScript error: chrome://juggler/content/content/FrameTree.js, line 583: TypeError: this.domWindow() is undefined
+[pid=5880][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=5880][err] JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iH5M4/y-/l/vi_VN-j/Dut67Qxygso.js, line 97: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[pid=5880] <gracefully close start>
+[pid=5880][err] DEBUG: BrowserHandler cleanup callback called
+[pid=5880][out] 
+[pid=5880][out]         ERROR: EventWatcher is being disposed dispose@chrome://juggler/content/Helper.js:230:22
+[pid=5880][out] dispose@chrome://juggler/content/protocol/PageHandler.js:168:15
+[pid=5880][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21
+[pid=5880][out] destroySession@chrome://juggler/content/protocol/Dispatcher.js:36:13
+[pid=5880][out] dispose@chrome://juggler/content/protocol/BrowserHandler.js:79:24
+[pid=5880][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:130:21
+[pid=5880][out] _dispose@chrome://juggler/content/protocol/Dispatcher.js:42:23
+[pid=5880][out] observe/browserHandler<@chrome://juggler/content/components/Juggler.js:145:22
+[pid=5880][out] Browser.close@chrome://juggler/content/protocol/BrowserHandler.js:150:10
+[pid=5880][out] 
+[pid=5880][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+[pid=5880][err] JavaScript error: chrome://juggler/content/components/Juggler.js, line 134: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIRemoteDebuggingPipe.sendMessage]
+[pid=5880][out]       
+2026-03-12 16:26:51,782 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-12 16:26:51,782 - root - INFO - 🎯 Đang điền Tháng: 5
+2026-03-12 16:26:55,655 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-12 16:26:55,655 - root - INFO - 🎯 Đang điền Năm: 1998
+2026-03-12 16:26:58,365 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-12 16:26:58,365 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-12 16:26:58,888 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-12 16:26:58,888 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-12 16:27:01,798 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:27:01,798 - root - INFO - 🎯 Đang điền Email: tkvzakzw@pokemail.net (Step 8)
+2026-03-12 16:27:05,160 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:27:05,702 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 16:27:05,702 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-12 16:27:06,247 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:27:06,247 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-12 16:27:09,000 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 16:27:09,531 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 16:27:09,531 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-12 16:27:10,060 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 16:27:10,060 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-12 16:27:10,605 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:27:10,605 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:27:11,146 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-12 16:27:11,146 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-12 16:27:11,688 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:27:11,689 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:27:12,219 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-12 16:27:12,219 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-12 16:27:12,219 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-12 16:27:14,451 - BROWSER - WARNING - [CAMOUFOX] Error on close: Browser.close: Connection closed while reading from the driver
+2026-03-12 16:27:14,452 - root - INFO - Browser closed.
+2026-03-12 16:27:14,452 - root - INFO - --- 💤 Chu kỳ #2 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 16:27:16,302 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() running at D:\tunn3\CODE\service-fb-2\facebook_registration.py:1370> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>

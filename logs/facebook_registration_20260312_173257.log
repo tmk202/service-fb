@@ -1,0 +1,88 @@
+2026-03-12 17:32:57,443 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-12 17:32:57,443 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-12 17:32:58,653 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.67
+2026-03-12 17:32:58,653 - root - INFO - [DCOM] IP cũ: 59.153.226.67 — Đang reset kết nối (huawei)...
+2026-03-12 17:32:58,691 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): yrAhQ1Qq8xzVRXv...
+2026-03-12 17:32:58,738 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 17:33:03,796 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 17:33:03,796 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 17:33:20,012 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.240.208
+2026-03-12 17:33:20,013 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.226.67 → 59.153.240.208
+2026-03-12 17:33:20,943 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.240.208
+2026-03-12 17:33:20,944 - root - INFO - 🚀 IP Hiện Tại: 59.153.240.208
+2026-03-12 17:33:20,944 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 17:33:30,952 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 17:33:32,171 - GuerrillaMail - INFO - Lấy email thành công: jbjvxauz@guerrillamailblock.com
+2026-03-12 17:33:32,171 - root - INFO - [DCOM_PROXY] Khởi động SOCKS5 proxy dựa trên Routing động...
+2026-03-12 17:33:32,194 - DCOMProxy - INFO - [DCOMProxy] ✅ SOCKS5 Proxy sẵn sàng tại 127.0.0.1:56057
+2026-03-12 17:33:32,195 - DCOMProxy - INFO - [DCOMProxy] 🔗 Tất cả domains sẽ được Route động (/32) sang DCOM Gateway: 192.168.16.1
+2026-03-12 17:33:32,195 - root - INFO - [DCOM_PROXY] ✅ Proxy sẵn sàng: socks5://127.0.0.1:56057
+2026-03-12 17:33:32,541 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 17:33:48,849 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 17:33:48,849 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-12 17:33:48,853 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 17:33:54,475 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 17:33:54,475 - root - INFO - [FB_REG] Email mục tiêu: jbjvxauz@guerrillamailblock.com | Họ: Dang | Tên: Chung
+2026-03-12 17:33:54,475 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 17:33:59,626 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 17:34:02,185 - root - INFO - ✅ Đã điền Họ: Dang
+2026-03-12 17:34:03,703 - root - INFO - ✅ Đã điền Tên: Chung
+2026-03-12 17:34:03,703 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 17:34:04,234 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 17:34:04,776 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-12 17:34:04,776 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-12 17:34:05,304 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-12 17:34:05,304 - root - INFO - 🎯 Đang điền Ngày: 24
+2026-03-12 17:34:07,684 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-12 17:34:07,684 - root - INFO - 🎯 Đang điền Tháng: 10
+2026-03-12 17:34:11,714 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-12 17:34:11,715 - root - INFO - 🎯 Đang điền Năm: 1995
+2026-03-12 17:34:14,405 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-12 17:34:14,405 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-12 17:34:14,934 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-12 17:34:14,934 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-12 17:34:17,846 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 17:34:17,846 - root - INFO - 🎯 Đang điền Email: jbjvxauz@guerrillamailblock.com (Step 8)
+2026-03-12 17:34:22,056 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 17:34:22,618 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 17:34:22,618 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-12 17:34:23,147 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 17:34:23,148 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-12 17:34:25,540 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 17:34:26,071 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 17:34:26,072 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-12 17:34:26,600 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 17:34:26,600 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-12 17:34:27,128 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 17:34:27,129 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 17:34:27,655 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-12 17:34:27,655 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-12 17:34:28,184 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 17:34:28,184 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 17:34:28,712 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-12 17:34:28,713 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-12 17:34:28,713 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-12 17:34:30,732 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-12 17:34:33,770 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-12 17:34:43,766 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 17:34:43,766 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 17:34:43,766 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-12 17:34:43,766 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-12 17:34:48,772 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-12 17:34:48,772 - GuerrillaMail - INFO - Đang quét hộp thư cho jbjvxauz@guerrillamailblock.com...
+2026-03-12 17:36:52,713 - root - ERROR - [FB_REG] Không lấy được mã code từ email.
+2026-03-12 17:36:52,715 - root - ERROR - Lỗi không xác định trong luồng FB FB: Page.evaluate: Target page, context or browser has been closed
+2026-03-12 17:36:52,719 - root - ERROR - Đăng ký thất bại. Error Code: EXCEPTION
+2026-03-12 17:36:54,460 - BROWSER - INFO - 🔒 [CAMOUFOX] Browser closed.
+2026-03-12 17:36:54,461 - root - INFO - Browser closed.
+2026-03-12 17:36:54,461 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 17:36:56,470 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#2) ---
+2026-03-12 17:36:56,470 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #2... ---
+2026-03-12 17:36:57,852 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.240.208
+2026-03-12 17:36:57,853 - root - INFO - [DCOM] IP cũ: 59.153.240.208 — Đang reset kết nối (huawei)...
+2026-03-12 17:36:57,890 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): Esb7KSCA/zt8STv...
+2026-03-12 17:36:57,907 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 17:37:02,967 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 17:37:02,967 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 17:37:18,773 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.226.139
+2026-03-12 17:37:18,773 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.240.208 → 59.153.226.139

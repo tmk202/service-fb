@@ -1,0 +1,167 @@
+2026-03-12 16:37:25,903 - root - INFO - --- 🔄 KHỞI ĐỘNG CHU KỲ FB ĐĂNG KÝ MỚI (#1) ---
+2026-03-12 16:37:25,903 - root - INFO - --- [CHUYỂN IP] Đang thực hiện đổi IP cho Chu kỳ #1... ---
+2026-03-12 16:37:25,904 - root - INFO - [DCOM] Đang ưu tiên card mạng: Ethernet 2 (Metric=1)...
+2026-03-12 16:37:27,523 - root - ERROR - [DCOM] ❌ Không thể set ưu tiên mạng (Cần quyền Admin): Command 'powershell -Command "Set-NetIPInterface -InterfaceAlias 'Ethernet 2' -InterfaceMetric 1"' returned non-zero exit status 1.
+2026-03-12 16:37:27,894 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.254.178
+2026-03-12 16:37:27,895 - root - INFO - [DCOM] IP cũ: 59.153.254.178 — Đang reset kết nối (huawei)...
+2026-03-12 16:37:27,933 - root - INFO - [DCOM/Huawei] Token lấy được (SesTokInfo): o83BoBL9trD0m4R...
+2026-03-12 16:37:27,954 - root - INFO - [DCOM/Huawei] Dataswitch OFF -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:37:33,023 - root - INFO - [DCOM/Huawei] Dataswitch ON -> HTTP 200 | <?xml version="1.0" encoding="UTF-8"?><response>OK</response>
+2026-03-12 16:37:33,023 - root - INFO - [DCOM] Đã gửi lệnh reset. Chờ 15s để modem kết nối lại...
+2026-03-12 16:37:48,807 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.234.215
+2026-03-12 16:37:48,808 - root - INFO - [DCOM] ✅ Đổi IP thành công: 59.153.254.178 → 59.153.234.215
+2026-03-12 16:37:49,648 - root - INFO - [DCOM] IP hiện tại trên Ethernet 2: 59.153.234.215
+2026-03-12 16:37:49,649 - root - INFO - 🚀 IP Hiện Tại: 59.153.234.215
+2026-03-12 16:37:49,649 - root - INFO - Đợi mạng ổn định hoàn toàn (10s)...
+2026-03-12 16:37:59,649 - root - INFO - --- [SETUP] ĐANG LẤY EMAIL TỪ GUERRILLA (Vui lòng chờ)... ---
+2026-03-12 16:38:00,866 - GuerrillaMail - INFO - Lấy email thành công: qhafytfz@guerrillamailblock.com
+2026-03-12 16:38:01,179 - BROWSER - INFO - 🦊 [CAMOUFOX] Launching: headless=False | os=windows | locale=vi-VN
+2026-03-12 16:38:08,215 - BROWSER - INFO - ✅ [CAMOUFOX] Browser & Page ready.
+2026-03-12 16:38:08,216 - root - INFO - --- [MONITOR] Đang kích hoạt chế độ giám sát Tracking của Facebook... ---
+2026-03-12 16:38:08,219 - root - INFO - 💓 [WATCHDOG] Kích hoạt Heartbeat giữ trình duyệt...
+2026-03-12 16:38:14,662 - root - INFO - [FB_REG] --- 🚀 KHỞI ĐỘNG LUỒNG ĐĂNG KÝ FACEBOOK ---
+2026-03-12 16:38:14,662 - root - INFO - [FB_REG] Email mục tiêu: qhafytfz@guerrillamailblock.com | Họ: Vu | Tên: Cuc
+2026-03-12 16:38:14,662 - root - INFO - [FB_REG] 1️⃣ Truy cập trang đăng ký...
+2026-03-12 16:38:18,155 - root - INFO - [FB_REG] 2️⃣ Điền thông tin cá nhân...
+2026-03-12 16:38:20,864 - root - INFO - ✅ Đã điền Họ: Vu
+2026-03-12 16:38:22,091 - root - INFO - ✅ Đã điền Tên: Cuc
+2026-03-12 16:38:22,091 - root - INFO - [FB_REG] 3️⃣ Bắt đầu SMART TAB để điền thông tin...
+2026-03-12 16:38:22,625 - root - INFO - 🔍 [DEBUG_FOCUS] Step_1 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:38:23,166 - root - INFO - 🔍 [DEBUG_FOCUS] Step_2 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách nhập ngày sinh | Text:  | Role: button
+2026-03-12 16:38:23,167 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách nhập ngày sinh
+2026-03-12 16:38:23,695 - root - INFO - 🔍 [DEBUG_FOCUS] Step_3 | Tag: DIV | Aria: Chọn ngày | Text: Ngày | Role: combobox
+2026-03-12 16:38:23,695 - root - INFO - 🎯 Đang điền Ngày: 25
+2026-03-12 16:38:26,015 - root - INFO - 🔍 [DEBUG_FOCUS] Step_4 | Tag: DIV | Aria: Chọn tháng | Text: Tháng | Role: combobox
+2026-03-12 16:38:26,015 - root - INFO - 🎯 Đang điền Tháng: 2
+2026-03-12 16:38:29,854 - root - INFO - 🔍 [DEBUG_FOCUS] Step_5 | Tag: DIV | Aria: Chọn năm | Text: Năm | Role: combobox
+2026-03-12 16:38:29,855 - root - INFO - 🎯 Đang điền Năm: 1996
+2026-03-12 16:38:32,583 - root - INFO - 🔍 [DEBUG_FOCUS] Step_6 | Tag: DIV | Aria: Nhấp để biết thêm thông tin về cách chọn giới tính | Text:  | Role: button
+2026-03-12 16:38:32,584 - root - INFO - ⏭️ Bỏ qua nút trợ giúp: nhấp để biết thêm thông tin về cách chọn giới tính
+2026-03-12 16:38:33,128 - root - INFO - 🔍 [DEBUG_FOCUS] Step_7 | Tag: DIV | Aria:  | Text: Chọn giới tính | Role: combobox
+2026-03-12 16:38:33,128 - root - INFO - 🎯 Đang chọn Giới tính: Nam
+2026-03-12 16:38:36,035 - root - INFO - 🔍 [DEBUG_FOCUS] Step_8 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:38:36,035 - root - INFO - 🎯 Đang điền Email: qhafytfz@guerrillamailblock.com (Step 8)
+2026-03-12 16:38:40,150 - root - INFO - 🔍 [DEBUG_FOCUS] Step_9 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:38:40,679 - root - INFO - 🔍 [DEBUG_FOCUS] Step_10 | Tag: A | Aria:  | Text: Tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn | Role: link
+2026-03-12 16:38:40,679 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu vì sao chúng tôi yêu cầu thông tin liên hệ của bạn
+2026-03-12 16:38:41,206 - root - INFO - 🔍 [DEBUG_FOCUS] Step_11 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:38:41,206 - root - INFO - 🎯 Đang điền Mật khẩu (Step 11)...
+2026-03-12 16:38:44,058 - root - INFO - 🔍 [DEBUG_FOCUS] Step_12 | Tag: DIV | Aria: Hiển thị mật khẩu | Text:  | Role: button
+2026-03-12 16:38:44,593 - root - INFO - 🔍 [DEBUG_FOCUS] Step_13 | Tag: A | Aria:  | Text: Tìm hiểu thêm | Role: link
+2026-03-12 16:38:44,594 - root - INFO - ⏭️ Bỏ qua link: tìm hiểu thêm
+2026-03-12 16:38:45,121 - root - INFO - 🔍 [DEBUG_FOCUS] Step_14 | Tag: A | Aria:  | Text: Điều khoản | Role: link
+2026-03-12 16:38:45,121 - root - INFO - ⏭️ Bỏ qua link: điều khoản
+2026-03-12 16:38:45,647 - root - INFO - 🔍 [DEBUG_FOCUS] Step_15 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:38:45,648 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:38:46,176 - root - INFO - 🔍 [DEBUG_FOCUS] Step_16 | Tag: A | Aria:  | Text: Chính sách cookie | Role: link
+2026-03-12 16:38:46,176 - root - INFO - ⏭️ Bỏ qua link: chính sách cookie
+2026-03-12 16:38:46,703 - root - INFO - 🔍 [DEBUG_FOCUS] Step_17 | Tag: A | Aria:  | Text: Chính sách quyền riêng tư | Role: link
+2026-03-12 16:38:46,703 - root - INFO - ⏭️ Bỏ qua link: chính sách quyền riêng tư
+2026-03-12 16:38:47,236 - root - INFO - 🔍 [DEBUG_FOCUS] Step_18 | Tag: DIV | Aria:  | Text: Gửi | Role: button
+2026-03-12 16:38:47,237 - root - INFO - 🏁 Đã đến nút Submit (gửi).
+2026-03-12 16:38:47,237 - root - INFO - ⌨️ Gửi form bằng phím ENTER (Standard React Action)...
+2026-03-12 16:38:49,273 - root - INFO - 🖱️ Vẫn ở trang cũ -> Thực hiện Click trực tiếp bằng tọa độ...
+2026-03-12 16:38:52,302 - root - INFO - ✅ Đã gửi lệnh Submit. Đợi hệ thống xử lý trang OTP (10s)...
+2026-03-12 16:39:02,315 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:39:02,316 - root - INFO - ✅ Kết quả SMART TAB: {'Ngày': True, 'Tháng': True, 'Năm': True, 'Giới tính': True, 'Email': True, 'Pass': True}
+2026-03-12 16:39:02,316 - root - INFO - [FB_REG] Đang chuyển sang Bước 6: Xác thực OTP...
+2026-03-12 16:39:02,316 - root - INFO - [FB_REG] 6️⃣ Bắt đầu SMART TAB để nhập mã OTP...
+2026-03-12 16:39:07,329 - root - INFO - [FB_REG] 🔍 Đang check mail lấy mã OTP...
+2026-03-12 16:39:07,329 - GuerrillaMail - INFO - Đang quét hộp thư cho qhafytfz@guerrillamailblock.com...
+2026-03-12 16:39:18,456 - root - INFO - [FB_REG] 🎉 Đã lấy được mã: 82947
+2026-03-12 16:39:18,796 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_1 | Tag: INPUT | Aria:  | Text:  | Role: 
+2026-03-12 16:39:18,796 - root - INFO - 🎯 Xác định ô nhập mã OTP! Điền: 82947
+2026-03-12 16:39:20,197 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_2 | Tag: DIV | Aria: Xóa văn bản | Text:  | Role: button
+2026-03-12 16:39:20,526 - root - INFO - 🔍 [DEBUG_FOCUS] Step_Verification_3 | Tag: DIV | Aria:  | Text: Tiếp tục | Role: button
+2026-03-12 16:39:20,527 - root - INFO - 🎯 Đã thấy nút Submit chính (tiếp tục)! Nhấn Enter...
+2026-03-12 16:39:20,549 - root - INFO - ⏳ Đợi trang chuyển sau khi nhấn Submit...
+2026-03-12 16:39:32,613 - root - INFO - 🔄 [URL_CHANGED] Trang đã chuyển sau 12.0s: https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2F%3Fcaa_reg_splash_screen%3D1
+2026-03-12 16:39:32,764 - root - INFO - 🔄 Đang ở trang Checkpoint Bridge! Tìm nút bằng Locator...
+2026-03-12 16:39:34,855 - root - WARNING - 🚨 [DETECTION] Phát hiện trang xác minh (Bridge/Video) tại: https://www.facebook.com/checkpoint/1501092823525282/?next=https%3a%2f%2fwww.facebook.com%2f%3fcaa_reg_splash_screen%3d1
+2026-03-12 16:39:34,918 - root - INFO - 🚀 [JS_CLICK] Đã click nút 'tiếp tục' bằng JS evaluate!
+2026-03-12 16:39:39,939 - root - WARNING - 🧩 [CAPTCHA] Phát hiện trang CAPTCHA!
+2026-03-12 16:39:39,939 - root - INFO - --- BƯỚC 1: Tìm nút 'Nghe mã này' (Thiết kế 3 lớp) ---
+2026-03-12 16:39:42,956 - root - INFO - 🎧 Chuyển sang Cách 2: Kỹ thuật Tab dò nút Nghe Mã...
+2026-03-12 16:39:46,483 - root - INFO - 🎯 Đã Tab trúng nút Nghe Mã (nghe mã này)! Bấm Enter...
+2026-03-12 16:39:46,491 - root - INFO - 🎧 Chờ 3s để giao diện chuyển sang Audio Captcha...
+2026-03-12 16:39:49,506 - root - INFO - 🖼️ [DEBUG] Tìm thấy 1 ảnh trên trang:
+2026-03-12 16:39:49,506 - root - INFO -    IMG[0]: 280x70 | alt='' | src=https://www.facebook.com/captcha/tfbimage/761399/?captcha_challenge_code=1773308376-d85d77ccc4f3d2dc737ef341b91f2441&cap
+2026-03-12 16:39:49,506 - root - INFO - 🔄 [CAPTCHA] Auto-solve lần #1...
+2026-03-12 16:39:49,506 - root - INFO - --- BƯỚC 2: Bật công nghệ SpeechToText lấy Audio URL ---
+2026-03-12 16:39:49,510 - root - WARNING - ⚠️ Không tìm thấy thẻ Audio URL! Lùi về OCR...
+2026-03-12 16:39:49,510 - root - INFO - --- THỬ GIẢI OCR MẢNH ẢNH ---
+2026-03-12 16:39:49,515 - root - INFO - 🎯 Tìm thấy ảnh CAPTCHA bằng selector: img[src*="captcha"]
+2026-03-12 16:39:49,546 - root - INFO - 📸 1. Đang lấy kích thước ảnh (bounding_box)...
+2026-03-12 16:39:49,586 - root - INFO - 📸 2. Đang di chuột tới ảnh (mouse.move)...
+2026-03-12 16:39:51,604 - root - WARNING - ⚠️ Bỏ qua bounding_box/mouse.move do lỗi hoặc timeout: 
+2026-03-12 16:39:51,604 - root - INFO - 📸 3. Đang tiến hành chụp ảnh CAPTCHA (timeout 8s)...
+2026-03-12 16:39:54,251 - root - INFO - 📸 4. Chụp ảnh CAPTCHA thành công (14160 bytes). Đang giải OCR...
+2026-03-12 16:39:54,283 - root - INFO - 🤖 [OCR ĐA TẦNG] Kết quả: '8i4430'
+2026-03-12 16:39:54,312 - root - INFO - 🖱️ Đang click vào ô điền CAPTCHA bằng toạ độ...
+2026-03-12 16:40:47,570 - root - INFO - --- Bắt đầu dò tìm nút Gửi / Tiếp tục bằng Tab ---
+2026-03-12 16:40:48,129 - root - INFO - 🔎 [TAB_DEBUG CAPTCHA] Step_1 | Tag: DIV | Role: button | Text: Tiếp tục | Aria: Tiếp tục
+2026-03-12 16:40:48,129 - root - INFO - 🎯 Tìm thấy nút Submit Captcha! Bấm Enter...
+2026-03-12 16:40:49,143 - root - INFO - ✅ Đã xử lý gửi CAPTCHA: 8i4430. Đợi 10s để test...
+2026-03-12 16:40:59,146 - root - WARNING - ❌ CAPTCHA sai (#1). Thử lại...
+2026-03-12 16:40:59,147 - root - INFO - 🔄 [CAPTCHA] Auto-solve lần #2...
+2026-03-12 16:40:59,147 - root - INFO - --- BƯỚC 2: Bật công nghệ SpeechToText lấy Audio URL ---
+2026-03-12 16:40:59,151 - root - WARNING - ⚠️ Không tìm thấy thẻ Audio URL! Lùi về OCR...
+2026-03-12 16:40:59,151 - root - INFO - --- THỬ GIẢI OCR MẢNH ẢNH ---
+2026-03-12 16:40:59,157 - root - INFO - 🎯 Tìm thấy ảnh CAPTCHA bằng selector: img[src*="captcha"]
+2026-03-12 16:40:59,163 - root - INFO - 📸 1. Đang lấy kích thước ảnh (bounding_box)...
+2026-03-12 16:40:59,177 - root - INFO - 📸 2. Đang di chuột tới ảnh (mouse.move)...
+2026-03-12 16:41:01,192 - root - WARNING - ⚠️ Bỏ qua bounding_box/mouse.move do lỗi hoặc timeout: 
+2026-03-12 16:41:01,193 - root - INFO - 📸 3. Đang tiến hành chụp ảnh CAPTCHA (timeout 8s)...
+2026-03-12 16:41:09,197 - root - ERROR - ❌ Lỗi khi chụp ảnh CAPTCHA hoặc OCR (có thể bị ẩn): 
+2026-03-12 16:41:09,197 - root - WARNING - OCR trống. Thử reload mã mới...
+2026-03-12 16:41:09,211 - root - INFO - 🔄 [CAPTCHA] Auto-solve lần #3...
+2026-03-12 16:41:09,211 - root - INFO - --- BƯỚC 2: Bật công nghệ SpeechToText lấy Audio URL ---
+2026-03-12 16:41:09,215 - root - WARNING - ⚠️ Không tìm thấy thẻ Audio URL! Lùi về OCR...
+2026-03-12 16:41:09,215 - root - INFO - --- THỬ GIẢI OCR MẢNH ẢNH ---
+2026-03-12 16:41:09,221 - root - INFO - 🎯 Tìm thấy ảnh CAPTCHA bằng selector: img[src*="captcha"]
+2026-03-12 16:41:09,225 - root - INFO - 📸 1. Đang lấy kích thước ảnh (bounding_box)...
+2026-03-12 16:41:09,237 - root - INFO - 📸 2. Đang di chuột tới ảnh (mouse.move)...
+2026-03-12 16:41:11,239 - root - WARNING - ⚠️ Bỏ qua bounding_box/mouse.move do lỗi hoặc timeout: 
+2026-03-12 16:41:11,239 - root - INFO - 📸 3. Đang tiến hành chụp ảnh CAPTCHA (timeout 8s)...
+2026-03-12 16:41:19,270 - root - ERROR - ❌ Lỗi khi chụp ảnh CAPTCHA hoặc OCR (có thể bị ẩn): 
+2026-03-12 16:51:23,569 - asyncio - ERROR - _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=CancelledError()>
+Traceback (most recent call last):
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 637, in run_until_complete
+    self.run_forever()
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 604, in run_forever
+    self._run_once()
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1873, in _run_once
+    event_list = self._selector.select(timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 439, in select
+    self._poll(timeout)
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 808, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\tunn3\CODE\service-fb-2\facebook_registration.py", line 365, in browser_heartbeat
+    await asyncio.sleep(3)
+  File "C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 639, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+2026-03-12 16:51:23,574 - BROWSER - WARNING - [CAMOUFOX] Error on close: Browser.close: Connection closed while reading from the driver
+2026-03-12 16:51:23,575 - root - INFO - Browser closed.
+2026-03-12 16:51:23,575 - root - INFO - --- 💤 Chu kỳ #1 kết thúc. Chuyển sang lượt mới... ---
+2026-03-12 16:51:25,022 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<main() running at D:\tunn3\CODE\service-fb-2\facebook_registration.py:1402> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:228, <1 more>, gather.<locals>._done_callback() at C:\Users\welcome\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
